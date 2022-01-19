@@ -18,6 +18,7 @@
 - Goroutines are basically lightweight threads
 
 # Where goroutines can yield
+- An yield point is a spot in the code where a running goroutine can be switched to a different goroutine
 - System calls and timers, just like threads
   - `os.Open("file")`
 - Channel operations
