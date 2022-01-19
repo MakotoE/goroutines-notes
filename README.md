@@ -27,7 +27,5 @@
   - Prevent long-running functions from deadlocking the scheduler
   - https://go.dev/doc/go1.14#runtime
 
-# Creating a goroutine
-
-
-# Passing information
+# Creating a goroutine and passing information
+- https://github.com/MakotoE/goroutine-example
