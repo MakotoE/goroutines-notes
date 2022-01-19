@@ -2,6 +2,7 @@
 - While threads are managed by the kernel, green threads are in the user space and managed by the runtime library
 - Goroutines have smaller memory footprints than OS threads
   - Experiment: create 1000 threads and 1000 goroutines
+  - Goroutine does require memory for runtime
 - Threads are typically slower in context switching
   - Threads have to restore many registers on context switch because they can be preemptively switched at any point
   - Goroutines have predetermined yield points for switching. They are designed so that it only has to restore three registers (PC, SP, and DX).
